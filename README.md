@@ -5,3 +5,5 @@ Creates a new feature "power_to_weight" from the original features and uses the 
 Furthermore, the performance of the model is evaluated by using the mean-squared Loss Function over each epoch.
 In the forward propogration, the Sigmoid activation fuction in both layers and the standard gradient-descent algorithm is used
 in the backpropogation. 
+
+
