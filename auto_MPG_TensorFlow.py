@@ -137,7 +137,12 @@ with tf.Session() as sess:
     print(test_loss)
     
     plt.plot(train_losses, label='train')
-    plt.legend()  
+    plt.xlabel("Epochs")
+    plt.ylabel("Mean-Squared Loss")
+    plt.title("Neural network in Tensorflow to predict 'Power-to-Weight' of automobiles", color='r')
+    plt.legend()
+    plt.show() 
+  
 
 
     
